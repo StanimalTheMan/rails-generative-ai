@@ -1,0 +1,10 @@
+<main class="container">
+    <div class="header">
+        <h1>Posts</h1>
+        <%= link_to "New post",
+                    new_post_path,
+                    class: "btn btn--primary" %>
+    </div>
+
+    <%= render @posts %>
+</main>

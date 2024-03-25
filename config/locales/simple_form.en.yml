@@ -1,0 +1,14 @@
+en:
+  simple_form:
+    placeholders:
+      post:
+        name: Title of your quote
+    labels:
+      post:
+        name: Title
+
+  helpers:
+    submit:
+      post:
+        create: Create post
+        update: Update post

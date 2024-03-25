@@ -1,0 +1,9 @@
+<main class="container">
+    <%= link_to sanitize("&larr; Back to posts"), posts_path %>
+    <div class="header">
+        <h1>
+            <%= @post.title %>
+        </h1>
+        <img src="<%= @post.img_url %>" alt="<%= @post.title %>">
+    </div>
+</main>
